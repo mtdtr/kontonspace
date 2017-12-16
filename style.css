@@ -1,0 +1,168 @@
+.op,.wrapper{
+  display:block;
+  transition: all 1000ms 0ms ease;
+}
+.opnone{
+/*  display:none; */
+  opacity:0;
+  transition: all 1000ms 0ms ease;
+}
+/*.wrapper{
+  background-image:url('anime.gif');
+  height:500px;
+  background-repeat:no-repeat;
+  background-color:#E5EDEC;
+  background-position:center;
+}*/
+
+.wrappern{
+  background:none;
+}
+
+.main{
+  transition:all 1000ms 0ms ease;
+}
+
+.key{
+  width:100%;
+/*  background-image:url('img/rc.jpg');*/
+}
+
+.key1ing{
+  width:50%;
+  margin:0 auto;
+}
+
+li.menu{
+  display:inline-block;
+  font-size:40px;
+  margin:10px 10px 0px 0px;
+}
+
+li,ul{
+  display:inline-block;
+}
+
+ul.menu{
+  display:inline-block;
+  background-color:#00ff00;
+  margin:0px;
+}
+
+table,tr,td,th{
+  border:solid 1px #000000;
+  border-collapse:collapse;
+}
+
+
+div.news{
+  float:left;
+}
+
+div{
+  margin:10px;
+}
+
+code{
+  color:white;
+  background-color:black;
+}
+
+span.right{
+  float:left;
+}
+
+a:visited{
+  color:#0000ff;
+}
+
+img.menu:hover{
+  opacity:0.7;
+  transition:all 500ms 0ms ease;
+}
+
+img{
+  opacity:1;
+  transition:all 500ms 0ms ease;
+  margin:10px;
+}
+
+a:hover,a:active{
+  display:inline-block;
+  color:#aaaaff;
+  transition:all 500ms 0ms ease;
+}
+
+a{
+  color:#0000ff;
+  transition:all 500ms 0ms ease;
+}
+
+footer{
+  background-color:#777777;
+}
+
+h6.white{
+  color:#ffffff;
+}
+
+input.box{
+  font-size:400%;
+  width:100%
+}
+
+.indexwrapper{
+  background-color:#ffffff;
+  transition:all 4000ms 0ms ease-in;
+  width:0px;
+  margin:20px auto;
+  padding:0;
+
+}
+
+.indexactive{
+  height:40px;
+  background-color:#00ff00;
+  transition:all 4000ms 0ms ease-in;
+  margin:20px auto;
+  padding:0;
+  position:absolute;
+}
+
+body{
+  width:95%;
+}
+
+.center{
+  text-align:center;
+  margin:0;
+  font-size:25px;
+  opacity:0;
+  transition:all 2000ms 2000ms ease;
+}
+
+.centeractive{
+  opacity:1;
+}
+
+.footindex{
+  opacity:0;
+  transition:all 2000ms 2000ms ease;
+  position:absolute;
+  width:0;
+  color:#000000;
+}
+
+.footactive{
+  opacity:1;
+  width:90%;
+  color:#ffffff;
+}
+
+footer{
+  clear:both;
+}
+
+p.small{
+  font-size:70%;
+}
